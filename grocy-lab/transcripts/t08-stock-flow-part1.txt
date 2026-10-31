@@ -1,0 +1,16 @@
+== Location "Pantry shelf" (created in the previous step, id 3) ==
+        "name": "Pantry shelf",
+        "description": "Dry goods, top shelf",
+        "row_created_timestamp": "2026-10-31 01:54:26",
+        "is_freezer": 0,
+== 2. Create a product (Piece unit id 2) ==
+{"created_object_id":"1"}
+product id: 1
+== 3. Give the product a barcode (invented, valid EAN-13 check digit) ==
+{"created_object_id":"1"}
+== 4. Resolve the product by its barcode ==
+{"product":{"id":1,"name":"Rolled oats","description":"1 kg bag, invented lab brand","product_group_id":null,"active":1,"location_id":3,"shopping_location_id":null,"qu_id_purchase":2,"qu_id_stock":2,"min_stock_amount":1,"default_best_before_days":365,"default_best_before_days_after_open":0,"default_
+== 5. Buy 6 bags (stock add), best before 2027-06-30, 1.85 each ==
+[{"id":1,"product_id":1,"amount":6,"best_before_date":"2027-06-30","purchased_date":"2026-10-30","used_date":null,"spoiled":0,"stock_id":"6ae54a6f89e25","transaction_type":"purchase","price":1.85,"undone":0,"undone_timestamp":null,"opened_date":null,"location_id":3,"recipe_id":null,"correlation_id":null,"transaction_id":"6ae54a6f89e20","stock_row_id":null,"shopping_location_id":null,"user_id":1,"r
+== 6. Current stock of the product ==
+{"product":{"id":1,"name":"Rolled oats","description":"1 kg bag, invented lab brand","product_group_id":null,"active":1,"location_id":3,"shopping_location_id":null,"qu_id_purchase":2,"qu_id_stock":2,"min_stock_amount":1,"default_best_before_days":365,"default_best_before_days_after_open":0,"default_best_before_days_after_freezing":0,"default_best_before_days_after_thawing":0,"picture_file_name":null,"enable_tare_weight_handling":0,"tare_weight":0,"not_check_stock_fulfillment_for_recipes":0,"pare

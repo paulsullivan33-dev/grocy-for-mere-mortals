@@ -1,0 +1,4 @@
+== t05 first run ==
+GET / -> 302 (to /login); first /login render ran DB migrations: data/grocy.db created (602112 bytes)
+GET /login -> HTTP 200
+<title>Login | Grocy</title>

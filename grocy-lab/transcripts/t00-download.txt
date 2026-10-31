@@ -1,0 +1,4 @@
+== t00 download ==
+Sat Oct 31 01:46:24 UTC 2026
+-rw-rw---- 1 root root 43599890 Oct 31 01:46 grocy_4.7.1.zip
+c4a10e96ed76664baf465e9b27dc7a31aa08c0e3ad876afdfae4f1ff9ab2fc19  grocy_4.7.1.zip

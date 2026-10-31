@@ -1,0 +1,3 @@
+== The amount field is called product_amount; "amount" was silently ignored ==
+POST add-product (product_amount 1 more) -> HTTP 204
+shopping list row: product 1 | amount 2 | note: None

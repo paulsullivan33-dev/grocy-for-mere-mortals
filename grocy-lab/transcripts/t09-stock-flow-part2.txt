@@ -1,0 +1,23 @@
+== Stock level after buying 6 ==
+stock amount: 6 | aggregated: 6 | value: 11.1
+== Consume 1 bag (breakfast) ==
+[{"id":2,"product_id":1,"amount":-1,"best_before_date":"2027-06-30","purchased_date":"2026-10-30","used_date":"2026-10-31","spoiled":0,"stock_id":"6ae54a6f89e25","transaction_type":"consume","price":1.85,"undone":0,"undone_timestamp":null,"opened_date":null,"location_id":3,"recipe_id":null,"correlat
+== Stock level after consuming ==
+stock amount: 5 | aggregated: 5 | value: 9.25
+== Whole current-stock overview (GET /stock) ==
+Rolled oats -> 5 pieces | best before 2027-06-30 | value 9.25
+== Add 2 bags to the shopping list ==
+POST add-product -> HTTP 204
+== Read the shopping list back ==
+[
+    {
+        "id": 1,
+        "product_id": 1,
+        "note": "Running low by December",
+        "amount": 1,
+        "row_created_timestamp": "2026-10-31 01:55:07",
+        "shopping_list_id": 1,
+        "done": 0,
+        "qu_id": 2
+    }
+]

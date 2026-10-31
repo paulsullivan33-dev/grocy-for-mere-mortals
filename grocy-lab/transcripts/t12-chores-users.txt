@@ -1,0 +1,12 @@
+== A chore ==
+{"created_object_id":"1"}
+== Execute it ==
+POST execute -> HTTP 200
+chores_log: 1 done at 2026-10-31 00:00:00
+== A battery ==
+{"created_object_id":"1"}
+== A second user for the household ==
+
+user: 1 admin
+user: 2 sam
+POST /login as sam -> HTTP 302 to http://127.0.0.1:18106/

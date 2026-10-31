@@ -1,0 +1,12 @@
+== A second product, milk, best before in 3 days ==
+add 2 milk -> HTTP 200
+== A third product, yoghurt, already past its date ==
+add 1 yoghurt -> HTTP 200
+== Volatile stock: what is due, overdue, expired, missing ==
+due_products: [('Fresh milk', 2)]
+overdue_products: [('Yoghurt pot', 1)]
+expired_products: []
+missing_products: []
+== A recipe that uses the oats, and its fulfillment ==
+recipe ingredient (oats) -> HTTP 200
+{"id":1,"recipe_id":1,"need_fulfilled":1,"need_fulfilled_with_shopping_list":1,"missing_products_count":0,"costs":1.85,"costs_per_serving":1.85,"calories":0,"due_score":0,"product_names_comma_separated":"Rolled oats","prices_incomplete":0}

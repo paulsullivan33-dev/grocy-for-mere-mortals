@@ -1,0 +1,20 @@
+== t13 data directory and api surface ==
+-- the whole installation state lives in the data directory:
+data/config.php
+data/viewcache/874d778ab204ac93814b36869769104500df38bf57e9bb8ae8314c5d7f0c2b42.txt
+data/viewcache/route_cache.php
+data/viewcache/8992d3eb70b408cec7759a66f9fe3f9f.php
+data/viewcache/96749fc0b9ef36835f3c7b12d35dedf8.php
+data/viewcache/e53f0d240823c7c09806278a9bffd1dc.php
+data/grocy.db
+728K	data
+-rw-r----- 1 root root 602112 Oct 31 01:55 data/grocy.db
+-- the API the release ships (from its own grocy.openapi.json):
+OpenAPI version: 3.1.0 | title: Grocy REST API xxx
+documented paths: 74
+documented operations: 87
+-- built-in API documentation page:
+GET /api -> HTTP 200
+<title>REST API browser | Grocy</title>
+-- a wrong key is refused:
+GET /api/system/info with a bad key -> HTTP 401

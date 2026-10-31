@@ -1,0 +1,24 @@
+== t03 php 8.5 debs from ondrej/php PPA pool (download only) ==
+ok php8.5-cli
+ok php8.5-common
+ok php8.5-opcache
+ok php8.5-sqlite3
+ok php8.5-mbstring
+ok php8.5-gd
+ok php8.5-intl
+ok php8.5-xml
+ok php8.5-curl
+ok php8.5-zip
+ok php8.5-readline
+total 5008
+-rw-rw---- 1 root root 3165930 Oct 31 01:49 php8.5-cli_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root  850622 Oct 31 01:49 php8.5-common_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root   45122 Oct 31 01:49 php8.5-curl_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root   38870 Oct 31 01:49 php8.5-gd_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root  178594 Oct 31 01:49 php8.5-intl_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root  520286 Oct 31 01:49 php8.5-mbstring_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root     196 Oct 31 01:49 php8.5-opcache_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root   13938 Oct 31 01:49 php8.5-readline_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root   41284 Oct 31 01:49 php8.5-sqlite3_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root  215350 Oct 31 01:49 php8.5-xml_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb
+-rw-rw---- 1 root root   32114 Oct 31 01:49 php8.5-zip_8.5.12-1+ubuntu24.04.1+deb.sury.org+1_amd64.deb

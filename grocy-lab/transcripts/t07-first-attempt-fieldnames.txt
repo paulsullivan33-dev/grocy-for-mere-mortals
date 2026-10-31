@@ -1,0 +1,20 @@
+== 1. Create a location ==
+{"error_message":"SQLSTATE[23000]: Integrity constraint violation: 19 UNIQUE constraint failed: locations.name"}
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <module>
+KeyError: 'created_object_id'
+== 2. Create a product (Piece unit id 2, location just created) ==
+{"error_message":"Request body could not be parsed (probably invalid JSON format or missing\/wrong Content-Type header)"}
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "<string>", line 1, in <module>
+KeyError: 'created_object_id'
+== 3. Give the product a barcode (invented, valid EAN-13 check digit) ==
+{"error_message":"Request body could not be parsed (probably invalid JSON format or missing\/wrong Content-Type header)"}
+== 4. Resolve the product by its barcode ==
+{"error_message":"No product with barcode 4008400401232 found"}
+== 5. Buy 6 bags (stock add), best before 2027-06-30, 1.85 each ==
+
+== 6. Current stock of the product ==
+
